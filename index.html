@@ -595,7 +595,7 @@ body {
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, h7 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; }
@@ -605,6 +605,7 @@ h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
 h4 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
+h7 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 
 /* Larger than phablet */
 @media (min-width: 550px) {
@@ -614,6 +615,7 @@ h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
   h6 { font-size: 1.5rem; }
+  h7 { font-size: 1.5rem; }
 }
 
 p {
@@ -944,6 +946,11 @@ h6 {
     font-family: Raleway;
 	font-weight: bold;
 }
+h7 {
+    color: red;
+    text-align: center;
+    font-family: Raleway;
+}
 
 
 .mid {
@@ -1014,6 +1021,11 @@ h3 {
     line-height: 150px;
     font-size: 18px;
 }
+.iphone h7 {
+    text-align: center;
+    line-height: 150px;
+    font-size: 18px;
+}
 
 
 
@@ -1042,6 +1054,10 @@ h3 {
         width: 100%;
     } 
         
+h6.logo {
+  color: #C40000;
+}
+
     
 </style>  
   
@@ -1091,6 +1107,8 @@ h3 {
                         <div class="iphone" style="background: rgb(169, 169, 169);">
                             <img src="1.png">
                             <h6>Black Spinner</h6>
+							
+							
                         </div>
                         <div class="iphone" style="background: rgb(247, 248, 250);">
                             <img src="2.png">
@@ -1098,12 +1116,20 @@ h3 {
                         </div>
                         <div class="iphone" style="background: rgb(169, 169, 169);">
                             <img src="3.png">
-                            <h6>Camo Spinner</h6>
+                            <h6 class="logo">Camo Spinner - *Low Stock*</h6>
                         </div>
                         <div class="iphone" style="background: rgb(247, 248, 250);">
                             <img src="4.png">
                             <h6>Flag Spinner</h6>
-                        </div>                        
+                        </div>
+						<div class="iphone" style="background: rgb(169, 169, 169);">
+                            <img src="5.png">
+                            <h6 class="logo">Graffiti Spinner - *Low Stock*</h6>
+                        </div>
+						<div class="iphone" style="background: rgb(247, 248, 250);">
+                            <img src="6.png">
+                            <h6 class="logo">Gold Spinner - *Low Stock*</h6>
+                        </div>
 
                     </div>
 
